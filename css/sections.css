@@ -1,0 +1,155 @@
+.cc-section {
+    padding: 6rem 0;
+    position: relative;
+}
+
+.cc-section-services {
+    background: #f2f2f5;
+    color: #2b2b37;
+    position: relative;
+    overflow: hidden;
+}
+
+.cc-section-services .grid-bg-dots {
+    position: absolute;
+    inset: 0;
+    opacity: .22;
+    background-image: radial-gradient(circle, rgba(43, 43, 55, 0.9) 1px, transparent 1px);
+    background-size: 32px 32px;
+    pointer-events: none;
+    z-index: 0;
+    mix-blend-mode: normal;
+}
+
+.cc-section-process {
+    background: linear-gradient(180deg, #23232f 0%, #2b2b37 100%);
+}
+
+.cc-section-planos {
+    background: linear-gradient(180deg, #171724 0%, #23232f 100%);
+}
+
+.cc-section-resultados {
+    background: #f2f2f5;
+    color: #2b2b37;
+    position: relative;
+    overflow: hidden;
+}
+
+.cc-section-resultados .grid-bg-dots {
+    position: absolute;
+    inset: 0;
+    opacity: .2;
+    background-image: radial-gradient(circle, rgba(43, 43, 55, 0.9) 1px, transparent 1px);
+    background-size: 32px 32px;
+    pointer-events: none;
+    z-index: 0;
+    mix-blend-mode: normal;
+}
+
+.cc-section-faq {
+    background: rgba(255, 255, 255, .02);
+}
+
+.cc-section-contato {
+    background: rgba(10, 8, 22, .95);
+    position: relative;
+    overflow: hidden;
+}
+
+.cc-section-contato .cc-glow.purple {
+    top: 10%;
+    left: -10%;
+    width: 500px;
+    height: 500px;
+    opacity: 0.2;
+}
+
+.cc-section-contato .cc-glow.pink {
+    bottom: -10%;
+    right: 10%;
+    width: 500px;
+    height: 500px;
+    opacity: 0.2;
+}
+
+.cc-section-contato .container {
+    position: relative;
+    z-index: 2;
+}
+
+.cc-section-contato .cc-tag {
+    border: none;
+    padding: 0;
+    background: none;
+    color: var(--cc-pink);
+}
+
+.cc-section-services .cc-card {
+    background: #fff;
+    border-color: rgba(43, 43, 55, .08);
+    box-shadow: 0 20px 40px rgba(106, 51, 255, .08);
+}
+
+.cc-section-services .cc-card:hover {
+    box-shadow: 0 24px 48px rgba(106, 51, 255, .15);
+    border-color: transparent;
+}
+
+.cc-section-services .cc-card h3,
+.cc-section-services .cc-h2,
+.cc-section-services .cc-lead,
+.cc-section-services .cc-tag {
+    color: #2b2b37;
+}
+
+.cc-section-services .text-muted-2,
+.cc-section-services .cc-lead {
+    color: rgba(43, 43, 55, .7) !important;
+}
+
+.cc-section-services .cc-tag {
+    background: rgba(106, 51, 255, .08);
+    border-color: rgba(106, 51, 255, .12);
+}
+
+.cc-section-process .cc-step {
+    background: rgba(255, 255, 255, .04);
+    border-color: rgba(255, 255, 255, .08);
+}
+
+.cc-section-process .cc-step:hover {
+    border-color: rgba(174, 174, 255, .3);
+}
+
+.cc-section-planos .cc-plan {
+    background: rgba(255, 255, 255, .05);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.cc-section-planos .cc-plan:hover {
+    box-shadow: 0 24px 48px rgba(106, 51, 255, .12);
+}
+
+.cc-section-resultados .cc-stat,
+.cc-section-resultados .cc-quote {
+    background: #fff;
+    border-color: rgba(43, 43, 55, .08);
+    box-shadow: 0 20px 40px rgba(106, 51, 255, .08);
+}
+
+.cc-section-resultados .cc-h2,
+.cc-section-resultados .cc-lead,
+.cc-section-resultados .cc-stat-l,
+.cc-section-resultados .cc-quote strong {
+    color: #2b2b37;
+}
+
+.cc-section-resultados .cc-quote p {
+    color: rgba(43, 43, 55, .7);
+}
+
+.cc-section-faq .cc-accordion .accordion-item {
+    background: rgba(255, 255, 255, .05);
+    border-color: rgba(255, 255, 255, .08);
+}
