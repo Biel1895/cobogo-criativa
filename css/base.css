@@ -88,7 +88,7 @@ body>*:not(.cc-bg) {
 .cc-glow {
     position: absolute;
     inset: 0;
-    background: radial-gradient(circle 800px at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(105, 51, 255, 0.21), transparent 80%);
+    background: radial-gradient(circle 800px at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(211, 51, 255, 0.21), transparent 60%);
     pointer-events: none;
     z-index: 0;
 }
