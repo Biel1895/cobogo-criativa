@@ -48,3 +48,11 @@ function togglePlan(btn, planId, duration) {
     priceContainer.querySelectorAll('.cc-price-display').forEach(function(el) { el.style.display = 'none'; });
     priceContainer.querySelector('.price-' + duration).style.display = 'block';
 }
+
+document.addEventListener('mousemove', function(e) {
+    var bg = document.querySelector('.cc-bg');
+    if (bg) {
+        bg.style.setProperty('--mouse-x', e.clientX + 'px');
+        bg.style.setProperty('--mouse-y', e.clientY + 'px');
+    }
+});
